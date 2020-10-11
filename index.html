@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display');
+
+        .banner { border: solid 4px blue; text-align: center; 
+                    display: flex; align-items: center; 
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 2em;
+             }
+        .banner .marvel { border: solid 4px red; flex-grow: 10; }
+        .banner .middlepic { border: solid 3px white; flex-grow: 7; }
+        .banner .middlepic div { 
+                background-image: url(img/marvel.jpg); 
+                background-size: cover;
+                padding-top: 56%;
+            }
+            
+        .banner .middlepic:hover div { background-image: url(img/wonder.jpg); }
+        .banner .wonder { border: solid 4px red; flex-grow: 10; }
+
+
+        nav { background-color: white; 
+            text-align: center; 
+            display: flex; align-items: center; 
+                   font-family: 'Abril Fatface', cursive;
+                    font-size: 1.3em;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+             }
+        nav .menuitem {  flex-grow: 25; 
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+            }
+
+        nav .menuitem:hover { background-color: black; 
+        color: aqua;}
+        
+
+       
+        
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="marvel">Captain Marvel</div>
+        <div class="middlepic"><div></div></div>
+        <div class="wonder">Wonder Woman</div>
+    </div>
+    <header>
+        <nav>
+            <div class="menuitem">
+                <a href="https://www.cinemablend.com/news/2475518/wonder-woman-vs-captain-marvel-who-is-the-stronger-female-superhero" target="blank">Who Is Better</a>
+            </div>
+            <div class="menuitem">
+                <a href="https://www.polygon.com/2018/9/19/17860712/captain-marvel-movie-powers-origin-carol-danvers-brie-larson-kelly-sue-deconnick" target="blank">Captain Marvel</a>
+            </div>
+            <div class="menuitem">Home</div>
+            <div class="menuitem">
+                <a href="https://www.dccomics.com/characters/wonder-woman" target="blank">Wonder Woman</a>    
+            </div>
+        </nav> 
+
+        <style>
+             stuff {
+                    display: flex; align-items: center; 
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+             }
+
+             stuff .infobox {  flex-grow: 25; 
+             border: solid 7px white;
+             }
+
+             stuff .marvelpowers div { background-image: url(img/powers-marvel.jpg);
+                        background-size: cover;
+                        padding-top: 56%;
+             }
+             
+             stuff .marvelpowers:hover div{background-image: url(img/marvel.jpg);
+             }
+
+             stuff .wonderwomanpower div { background-image: url(img/powers-wonder.jpg);
+                        background-size: cover;
+                        padding-top: 56%;
+             }
+
+             stuff .wonderwomanpower:hover div{background-image: url(img/wonder.jpg);
+             }
+
+             stuff .wonderwomanpower div { background-image: url(img/powers-wonder.jpg);
+                        background-size: cover;
+                        padding-top: 56%;
+             }
+
+             stuff .storywonder:hover div{background-image: url(img/wonder.jpg);
+             }
+
+             stuff .storymarvel div { background-image: url(img/captainmarvel.jpg);
+                        background-size: cover;
+                        padding-top: 56%;
+             }
+
+             stuff .storymarvel:hover div{background-image: url(img/marvel.jpg);
+             }
+
+             stuff .storymarvel:hover div{background-image: url(img/marvel.jpg);
+             }
+
+             stuff .storywonder div { background-image: url(img/story-wonder.jpg);
+                        background-size: cover;
+                        padding-top: 56%;
+             }
+
+
+        </style>
+
+        <stuff>
+            <div class="infobox marvelpowers" ><div></div></div>
+            <div class="infobox wonderwomanpower"><div></div></div>
+            <div class="infobox storymarvel"><div></div></div>
+            <div class="infobox storywonder"><div></div></div>
+        </stuff> 
+
+        <style>
+            stuff2 {
+                   display: flex; align-items: center; 
+                   margin-top: 10px;
+                   margin-bottom: 10px;
+            }
+
+            stuff2 .infobox {  flex-grow: 25; 
+            border: solid 7px white;
+            }
+
+            stuff2 .proconmarvel div { background-image: url(img/procon-marvel.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .proconmarvel:hover div{background-image: url(img/marvel.jpg);
+             }
+
+            stuff2 .prowonder div { background-image: url(img/procon-wonder.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .prowonder:hover div{background-image: url(img/wonder.jpg);
+             }
+
+            stuff2 .compare div { background-image: url(img/compare-contrast.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .compare:hover div{background-image: url(img/wonder.jpg);
+             }
+
+            stuff2 .storymarvel div { background-image: url(img/story-marvel.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .storymarvel div { background-image: url(img/story-marvel.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .strengthsweakness div { background-image: url(img/strengths-weaknesses.jpg);
+                       background-size: cover;
+                       padding-top: 56%;
+            }
+
+            stuff2 .strengthsweakness:hover div{background-image: url(img/marvel.jpg);
+             }
+
+       </style>
+
+       <stuff2>
+           <div class="infobox compare" ><div></div></div>
+           <div class="infobox proconmarvel"><div></div></div>
+           <div class="infobox prowonder"><div></div></div>
+           <div class="infobox strengthsweakness"><div></div></div>
+       </stuff2> 
+        
